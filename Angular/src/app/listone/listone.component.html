@@ -1,0 +1,24 @@
+<!--<hr />
+<h3>Selected Item: {{ currentItem.itemName }}</h3>
+<hr />
+<a class="d-block" href=" "
+  ><img class="d-block" src="{{ currentItem.imgUrl }}" alt="Econex item"
+/></a>
+<a routerLink="/edititem/:{{ currentItem.itemId }}">Edit Item</a>
+-->
+<div class="card border-0">
+    <a class="d-block" href=""
+      ><img
+        class="d-block"
+        src="{{ currentItem.imgUrl }}"
+        alt="womens's sneakers"
+    /></a>
+    <div class="card-body pb-2">
+      <h2 class="h6 mb-2">{{ currentItem.itemName }}</h2>
+      <span class="d-block mb-3 font-size-xs text-muted">
+        <span class="font-weight-semibold">{{
+          currentItem.itemPrice
+        }}</span></span
+      >
+    </div>
+  </div>

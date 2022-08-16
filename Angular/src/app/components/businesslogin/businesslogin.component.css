@@ -1,0 +1,30 @@
+.ng-valid[required], .ng-valid.required  {
+    border-left: 5px solid #42A948; /* green */
+  }
+  
+  .ng-invalid:not(form)  {
+    border-left: 5px solid #a94442; /* red */
+  }
+
+  .card-body {
+    background: linear-gradient(
+        #606c88,
+
+
+        #3f4c6b
+       );
+  }
+
+  h2 {
+      color: whitesmoke;
+  }
+.card {
+    margin-top: 40px;
+}
+
+button {
+    margin-bottom: 20px;
+}
+input {
+    margin-top: 20px;
+}

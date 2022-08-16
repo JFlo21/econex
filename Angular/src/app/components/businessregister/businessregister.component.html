@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<section>
+  <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+          <div class="card" style="border-radius: 15px">
+            <div class="card-body p-5">
+              <h2 class="text-uppercase text-center mb-5">
+                Create a Business Account
+              </h2>
+
+              <form
+                (ngSubmit)="businessSignUp()"
+              >
+                <div class="mb-3">
+                  <input
+                    formControlName="Username"
+                    type="text"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="username"
+                    placeholder="username"
+                  />
+                  <span
+                    class="text-danger"
+                    *ngIf="
+                      businessSignUpForm.controls['Username'].dirty &&
+                      businessSignUpForm.hasError('required', 'Username')
+                    "
+                    >*Username is required</span
+                  >
+                  <div class="form-group">
+                    <input
+                      formControlName="BusinessName"
+                      type="text"
+                      class="form-control"
+                      id="exampleInputBusinessName1"
+                      aria-describedby="buisnessname"
+                      placeholder="business name"
+                    />
+                    <span
+                      class="text-danger"
+                      *ngIf="
+                        businessSignUpForm.controls['BusinessName'].dirty &&
+                        businessSignUpForm.hasError('required', 'BusinessName')
+                      "
+                      >*Business Name is required</span
+                    >
+
+                    <div class="form-group">
+                      <input
+                        formControlName="FirstName"
+                        type="text"
+                        class="form-control"
+                        id="exampleInputEmail1"
+                        aria-describedby="firstname"
+                        placeholder="first name"
+                      />
+                      <span
+                        class="text-danger"
+                        *ngIf="
+                          businessSignUpForm.controls['FirstName'].dirty &&
+                          businessSignUpForm.hasError('required', 'FirstName')
+                        "
+                        >*First Name is required</span
+                      >
+                      <div class="form-group">
+                        <input
+                          formControlName="LastName"
+                          type="text"
+                          class="form-control"
+                          id="exampleInputLastName1"
+                          aria-describedby="lastname"
+                          placeholder="last name"
+                        />
+                        <span
+                          class="text-danger"
+                          *ngIf="
+                            businessSignUpForm.controls['LastName'].dirty &&
+                            businessSignUpForm.hasError('required', 'LastName')
+                          "
+                          >*Last Name is required</span
+                        >
+                        <div class="form-group">
+                          <input
+                            formControlName="Email"
+                            type="text"
+                            class="form-control"
+                            id="exampleInputEmail1"
+                            aria-describedby="email"
+                            placeholder="business email"
+                          />
+                          <span
+                            class="text-danger"
+                            *ngIf="
+                              businessSignUpForm.controls['Email'].dirty &&
+                              businessSignUpForm.hasError('required', 'Email')
+                            "
+                            >*Business Email is required</span
+                          >
+                          <div class="form-group">
+                            <input
+                              formControlName="Password"
+                              type="password"
+                              class="form-control"
+                              id="exampleInputPassword1"
+                              aria-describedby="password"
+                              placeholder="password"
+                            />
+                            <span
+                              class="text-danger"
+                              *ngIf="
+                                businessSignUpForm.controls['Password'].dirty &&
+                                businessSignUpForm.hasError(
+                                  'required',
+                                  'Password'
+                                )
+                              "
+                              >*Password is required</span
+                            >
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <button
+                              type="submit"
+                              [disabled]="!businessSignUpForm.valid"
+                              class="btn btn-dark mb-2"
+                            >
+                              Register
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <a
+                style="color: white;"
+                routerLink="/businesslogin"
+                >You already have an account? Sign-in</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

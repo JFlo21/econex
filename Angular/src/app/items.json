@@ -1,0 +1,24 @@
+{
+    "items": [{
+        "itemId": 1,
+        "itemName": "leather jacket",
+        "itemPrice": 29.99,
+        "itemDescription": "You will love my stylish leather jacket. It is a US size 7.",
+        "itemSeller": "Kelly Williams",
+        "imgUrl": "https://burst.shopifycdn.com/photos/leather-jacket-and-tea.jpg?width=746&format=pjpg&exif=1&iptc=1"
+
+
+    },
+  {
+        "itemId": 2,
+        "itemName": "leather shoes",
+        "itemPrice": 19.99,
+        "itemDescription": "You will love this snazzy pair of leather shoes. It is a US size 11.",
+        "itemSeller": "Kelly Williams",
+        "imgUrl": "https://burst.shopifycdn.com/photos/mens-leather-dress-shoes.jpg?width=1850&format=pjpg&exif=1&iptc=1"
+
+
+    }
+
+]
+}

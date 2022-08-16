@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "tslib": "^2.3.1"
+  },
+  "dependencies": {
+    "@angular/platform-browser": "^13.3.3"
+  }
+}

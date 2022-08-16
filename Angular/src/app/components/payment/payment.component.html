@@ -1,0 +1,139 @@
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+        <div class="row">
+          <div class="col-50">
+            <h3>Personal Details</h3>
+            <label for="fname"><i class="fa fa-user"></i> First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="John" />
+            <label for="fname"><i class="fa fa-user"></i> Last Name</label>
+            <input type="text" id="fname" name="lastname" placeholder="Doe" />
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="john@example.com"
+            />
+            <label for="phn"
+              ><i class="fa fa-phone-card-o"></i> Phone Number</label
+            >
+            <input
+              type="text"
+              id="phn"
+              name="phone"
+              placeholder="123-456-7890"
+            />
+
+            <div class="row">
+              <div class="col-50">
+                <h3>Shipping Details</h3>
+                <label for="adr"
+                  ><i class="fa fa-address-card-o"></i> Address</label
+                >
+                <input
+                  type="text"
+                  id="adr"
+                  name="address"
+                  placeholder="123 Street St"
+                />
+                <label for="zip"><i class="fa fa-zipcode"></i> Zipcode</label>
+                <input type="text" id="zip" name="zip" placeholder="00000" />
+                <label for="city"><i class="fa fa-institution"></i> City</label>
+                <input
+                  type="text"
+                  id="city"
+                  name="city"
+                  placeholder="Redding"
+                />
+                <label for="state"><i class="fa fa-state"></i> State</label>
+                <input
+                  type="text"
+                  id="state"
+                  name="state"
+                  placeholder="California"
+                />
+                <label for="country"
+                  ><i class="fa fa-country"></i> Country</label
+                >
+                <input
+                  type="text"
+                  id="country"
+                  name="country"
+                  placeholder="USA"
+                />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-50">
+                <label for="fedex">USPS</label>
+                <input type="submit" value="$1.99" class="btn" />
+              </div>
+              <div class="col-50">
+                <label for="fedex">FedEx</label>
+                <input type="submit" value="$1.99" class="btn" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Payment Method</h3>
+            <div class="icon-container"></div>
+            <label for="ccname">Cardholder Namer</label>
+            <input
+              type="text"
+              id="ccname"
+              name="cardholder"
+              placeholder="John Doe"
+            />
+            <label for="ccnum">Card Number</label>
+            <input
+              type="text"
+              id="ccnum"
+              name="ccnum"
+              placeholder="1111 2222 3333 4444"
+            />
+
+            <div class="row">
+              <div class="col-50">
+                <label for="expdate">Exp Date</label>
+                <input
+                  type="text"
+                  id="expdate"
+                  name="expdate"
+                  placeholder="05/22/2022"
+                />
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="123" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr" /> Shipping
+          address same as billing
+        </label>
+
+        <a
+          class="btn btn-outline-dark mr-2 shopbutton"
+          href="http://localhost:4200/paymentcomplete"
+          >Continue to checkout</a
+        >
+
+        <div style="overflow: auto">
+          <div style="float: left">
+            <a
+              class="btn btn-outline-dark mr-2 shopbutton"
+              href="http://localhost:4200/cart"
+              >Previous</a
+            >
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

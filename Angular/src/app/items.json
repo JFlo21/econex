@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "itemId": 1,
+      "itemName": "leather jacket",
+      "itemPrice": "29.99",
+      "itemDescription": "You will love my stylish leather jacket. It is a US size 7.",
+      "itemSeller": "Kelly Williams",
+      "imgUrl": "https://burst.shopifycdn.com/photos/leather-jacket-and-tea.jpg?width=746&format=pjpg&exif=1&iptc=1"
+    },
+    {
+      "id": 2,
+      "itemId": 2,
+      "itemName": "leather shoes",
+      "itemPrice": "16.99",
+      "itemDescription": "You will love this snazzy pair of leather shoes. It is a US size 11.",
+      "itemSeller": "Matt Smith",
+      "imgUrl": "https://burst.shopifycdn.com/photos/mens-leather-dress-shoes.jpg?width=1850&format=pjpg&exif=1&iptc=1"
+    },
+    {
+      "imgUrl": "https://burst.shopifycdn.com/photos/silver-wingtip-shoes-on-silver-background.jpg?width=746&format=pjpg&exif=1&iptc=1",
+      "itemName": "gold shoes",
+      "itemPrice": "29.99",
+      "itemDescription": "You will love my gold sneakers.",
+      "itemSeller": "Sarah James",
+      "id": 4
+    },
+    {
+      "imgUrl": "https://burst.shopifycdn.com/photos/white-t-shirt-detail.jpg?width=746&format=pjpg&exif=1&iptc=1",
+      "itemName": "White Shirt",
+      "itemPrice": "24.99",
+      "itemDescription": "White Shirt",
+      "itemSeller": "Sarah James",
+      "id": 5
+    },
+    {
+      "imgUrl": "https://burst.shopifycdn.com/photos/striped-fashion-shirt.jpg?width=746&format=pjpg&exif=1&iptc=1",
+      "itemName": "Striped Shirt",
+      "itemPrice": "14.99",
+      "itemDescription": "You will love this comfortable and stylish striped shirt!",
+      "itemSeller": "Kelly Williams",
+      "id": 6
+    }
+  ]
+}

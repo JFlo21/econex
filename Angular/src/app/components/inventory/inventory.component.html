@@ -1,0 +1,37 @@
+<div class="container pb-5 mb-sm-2">
+  <div class="topicsection">
+    <h1 class="title">Inventory</h1>
+  </div>
+  <p>
+    <a routerLink="/inventory">All inventory</a> |
+    <a routerLink="/createitem">Add item</a>
+  </p>
+  <hr />
+  <!-- Categories-->
+  <div class="row no-gutters">
+    <!--Category-->
+    <div
+      *ngFor="let item of listofItems"
+      class="col-lg-3 col-sm-4 col-6 category-card border border-collapse"
+    >
+      <a routerLink="/inventory/{{ item.itemId }}">
+        <div class="card border-0">
+          <a class="d-block" href=" "
+            ><img class="d-block" src="{{ item.imgUrl }}" alt="Econex item"
+          /></a>
+          <div class="card-body pb-2">
+            <h2 class="h6 mb-2">{{ item.itemName }}</h2>
+            <span class="d-block mb-3 font-size-xs text-muted">
+              <span class="font-weight-semibold">{{
+                item.itemPrice
+              }}</span></span
+            >
+          </div>
+          <button class="deleteButton" (click)="deleteItem(item.itemId)">
+            Delete Item
+          </button>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>

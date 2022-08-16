@@ -1,0 +1,39 @@
+<!--<hr />
+
+<h3>Selected Item: {{ currentItem.itemName }}</h3>
+<hr />
+
+<a class="d-block" href=" "
+  ><img class="d-block" src="{{ currentItem.imgUrl }}" alt="Econex item"
+/></a>
+
+<a routerLink="/edititem/:{{ currentItem.itemId }}">Edit Item</a>
+-->
+<div class="container pb-5 mb-sm-2">
+  <p>
+    <a routerLink="/inventory">All inventory</a> |
+    <a routerLink="/createitem">Add item</a>
+  </p>
+  <hr />
+  <div class="editdiv">
+    <div class="card border-0">
+      <a class="d-block" href=""
+        ><img
+          class="d-block"
+          src="{{ currentItem.imgURL }}"
+          alt="womens's sneakers"
+      /></a>
+      <div class="card-body pb-2">
+        <h2 class="h6 mb-2">{{ currentItem.itemName }}</h2>
+        <span class="d-block mb-3 font-size-xs text-muted">
+          <span class="font-weight-semibold">{{
+            currentItem.itemPrice
+          }}</span></span
+        >
+        <a routerLink="/edititem/{{ currentItem.itemId }}">
+          <button class="editButton"><b>Edit</b></button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,48 @@
+body{margin-top:20px;}
+
+
+img, figure {
+    max-width: 100%;
+    /*height: auto;*/
+    vertical-align: middle;
+    height: 232px;
+    width: 340px;
+    object-fit: cover;
+    
+}
+
+.createButton {
+    margin: 0 150px;
+    color: white;
+    background:  #D27D2D;
+}
+
+
+
+
+.title {
+    display:flex;
+    justify-content: center;
+}
+
+
+.creatediv{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#c9c6c6, #f1f2f6);/* #E5E5E5;*/
+    /*background-color: #D3D3D3;*/
+  
+}
+
+.econexItem {
+  /*margin: 15px 12px;*/
+  display: flex;
+  justify-content: center;
+}
+.itemTextBox {
+    margin-left: 90px;
+  }
+
+
+
+

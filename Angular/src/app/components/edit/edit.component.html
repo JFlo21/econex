@@ -1,0 +1,84 @@
+<div class="container pb-5 mb-sm-2">
+  <div class="topicsection">
+    <h1 class="title">Edit Item {{ editItem.itemName }}</h1>
+  </div>
+  <p>
+    <a routerLink="/inventory">All inventory</a> |
+    <a routerLink="/createitem">Add item</a>
+  </p>
+  <hr />
+
+  <section>
+    <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+      <div class="container h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+            <div class="card" style="border-radius: 15px">
+              <div class="card-body p-5 editdiv">
+                <form form (ngSubmit)="updateItem()">
+                  <div class="form-group">
+                    <label class="econexItem"><b>Item Image</b></label>
+                    <input
+                      class="itemTextBox"
+                      type="text"
+                      name="itemimage"
+                      [(ngModel)]="editItem.imgURL"
+                      placeholder="item url"
+                    />
+                  </div>
+                  <br />
+                  <br />
+                  <div class="form-group">
+                    <label class="econexItem"><b>Item Name</b></label>
+                    <input
+                      class="itemTextBox"
+                      type="text"
+                      name="itemname"
+                      [(ngModel)]="editItem.itemName"
+                      placeholder="item name"
+                    />
+                  </div>
+                  <br />
+                  <div class="form-group">
+                    <label class="econexItem"><b>Item Price</b></label>
+                    <input
+                      class="itemTextBox"
+                      type="text"
+                      name="itemPrice"
+                      [(ngModel)]="editItem.itemPrice"
+                      placeholder="item price"
+                    />
+                  </div>
+                  <br />
+                  <div class="form-group">
+                    <label class="econexItem"><b>Description</b></label>
+                    <input
+                      class="itemTextBox"
+                      type="text"
+                      name="itemDescription"
+                      [(ngModel)]="editItem.itemDescription"
+                      placeholder="item description"
+                    />
+                  </div>
+                  <br />
+                  <div class="form-group">
+                    <label class="econexItem"><b>Seller</b></label>
+                    <input
+                      class="itemTextBox"
+                      type="text"
+                      name="itemSeller"
+                      [(ngModel)]="editItem.itemSeller"
+                      placeholder="item seller"
+                    />
+                  </div>
+                  <br />
+                  <button class="editButton" type="submit"><b>Edit</b></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

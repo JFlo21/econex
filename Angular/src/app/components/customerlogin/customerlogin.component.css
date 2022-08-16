@@ -1,0 +1,50 @@
+/*.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+   
+    border: none;
+    width: 500px;
+    padding: 40px;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    background: hsla(205,46% 30%, 1);
+    background: linear-gradient(90deg, hsla(205, 46%, 30%, 1) 0%, hsla(260,29%,36%,1) 100%);
+}
+*/
+
+.ng-valid[required], .ng-valid.required  {
+    border-left: 5px solid #42A948; /* green */
+  }
+  
+  .ng-invalid:not(form)  {
+    border-left: 5px solid #a94442; /* red */
+  }
+
+  .card-body {
+    background: linear-gradient(
+        #606c88,
+
+
+        #3f4c6b
+       );
+  }
+
+  h2 {
+      color: whitesmoke;
+  }
+.card {
+    margin-top: 40px;
+}
+input {
+    margin-top: 20px;
+}
+
+.signupText{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}

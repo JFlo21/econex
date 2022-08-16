@@ -1,0 +1,27 @@
+body{margin-top:20px;}
+
+
+img, figure {
+    max-width: 100%;
+    /*height: auto;*/
+    vertical-align: middle;
+    height: 232px;
+    width: 340px;
+    object-fit: cover;
+    
+}
+
+.title {
+    display:flex;
+    justify-content: center;
+}
+
+.editdiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.editButton {
+    color: white;
+    background:  #D27D2D;
+}

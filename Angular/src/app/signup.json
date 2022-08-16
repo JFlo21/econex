@@ -1,0 +1,108 @@
+{
+  "signup": [
+    {
+      "id": 1,
+      "Username": "BethelTech",
+      "FirstName": "Selin ",
+      "LastName": "Monroe ",
+      "Email": "betheltech@gmail.com",
+      "Password": "1234"
+    },
+    {
+      "username": "Woz",
+      "firstname": "John",
+      "lastname": "Smith",
+      "email": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "username": "codingisfun",
+      "firstname": "bob",
+      "lastname": "smith",
+      "email": "",
+      "password": "",
+      "id": 3
+    },
+    {
+      "username": "code",
+      "firstname": "bill",
+      "lastname": "smith",
+      "email": "",
+      "password": "",
+      "id": 4
+    },
+    {
+      "Username": "BethelSchool",
+      "FirstName": "Joe",
+      "LastName": "Smith",
+      "Email": "",
+      "Password": "",
+      "id": 5
+    },
+    {
+      "username": "BibleTime",
+      "firstname": "Sammie",
+      "lastname": "Smith",
+      "email": "",
+      "password": "",
+      "id": 6
+    },
+    {
+      "Username": "",
+      "FirstName": "Susan",
+      "LastName": "Smith",
+      "Email": "",
+      "Password": "",
+      "id": 7
+    },
+    {
+      "Username": "",
+      "FirstName": "Joey",
+      "LastName": "Smith",
+      "Email": "",
+      "Password": "",
+      "id": 8
+    },
+    {
+      "username": "Biblereading",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "id": 9
+    },
+    {
+      "Username": "Church",
+      "FirstName": "Jimmy",
+      "LastName": "Smith",
+      "Email": "",
+      "Password": "",
+      "id": 10
+    },
+    {
+      "Username": "Churchtime",
+      "FirstName": "Tom",
+      "LastName": "Smith",
+      "Email": "",
+      "Password": "",
+      "id": 11
+    },
+    {
+      "Username": "Codingschool",
+      "FirstName": "Henry",
+      "LastName": "Smith",
+      "Email": "codingschool@gmail.com",
+      "Password": "1234",
+      "id": 12
+    },
+    {
+      "Username": "CODINGISFUN",
+      "FirstName": "Jim",
+      "LastName": "Matthews",
+      "Email": "johnmatthews@gmail.com",
+      "Password": "12345",
+      "id": 13
+    }
+  ]
+}

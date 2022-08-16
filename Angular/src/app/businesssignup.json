@@ -1,0 +1,40 @@
+{
+  "businesssignup": [
+    {
+      "id": 1,
+      "Username": "BethelTech",
+      "FirstName": "Selin ",
+      "LastName": "Monroe ",
+      "BusinessName": "Monroecompany",
+      "Email": "betheltech@gmail.com",
+      "Password": "1234"
+    },
+    {
+      "Username": "WomenShoesBoss",
+      "BusinessName": "WomenExpress",
+      "FirstName": "Haley",
+      "LastName": "Smith",
+      "Email": "womenexpress@gmail.com",
+      "Password": "1234",
+      "id": 2
+    },
+    {
+      "Username": "AffordableCloset",
+      "BusinessName": "PrettyBargain",
+      "FirstName": "Tiffani",
+      "LastName": "Matthews",
+      "Email": "prettybargain@gmail.com",
+      "Password": "12345",
+      "id": 3
+    },
+    {
+      "Username": "jnjn",
+      "BusinessName": "nkn",
+      "FirstName": "bj",
+      "LastName": "njn",
+      "Email": "bb",
+      "Password": "hu",
+      "id": 4
+    }
+  ]
+}

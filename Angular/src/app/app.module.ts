@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {HttpClientModule} from '@angular/common/http';
-import {OwlModule} from 'ngx-owl-carousel';
+import {CarouselModule} from 'ngx-owl-carousel';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -48,6 +48,7 @@ import {ReactiveFormsModule } from '@angular/forms';
 import { PaymentcompletepageComponent } from './components/paymentcompletepage/paymentcompletepage.component';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 
@@ -106,11 +107,12 @@ import { CommonModule } from '@angular/common';
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    OwlModule,
+    CarouselModule,
     FormsModule,
     ReactiveFormsModule,
     RouterModule,
-    CommonModule
+    CommonModule,
+    FontAwesomeModule
   ],
   
   

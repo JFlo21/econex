@@ -5,6 +5,7 @@ import {CarouselModule} from 'ngx-owl-carousel';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import {NavBarModule} from './nav-bar/nav-bar.module';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { CustomerloginComponent } from './components/customerlogin/customerlogin.component';
@@ -44,11 +45,12 @@ import { Mensjeans4Component } from './allmensjeans/mensjeans4/mensjeans4.compon
 import { Mensjeans5Component } from './allmensjeans/mensjeans5/mensjeans5.component';
 import { Mensjeans6Component } from './allmensjeans/mensjeans6/mensjeans6.component';
 import { ListoneComponent } from './listone/listone.component';
-import {ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 import { PaymentcompletepageComponent } from './components/paymentcompletepage/paymentcompletepage.component';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 
 
@@ -59,6 +61,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   declarations: [
     AppComponent,
     NavBarComponent,
+    FooterComponent,
     CustomerloginComponent,
     CustomerregisterComponent,
     HomeComponent,
@@ -112,7 +115,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ReactiveFormsModule,
     RouterModule,
     CommonModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    NavBarModule,
+    CarouselModule
   ],
   
   

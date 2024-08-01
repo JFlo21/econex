@@ -23,7 +23,7 @@ export class PaymentComponent implements OnInit {
       console.log(
         `lat: ${position.coords.latitude}, lon: ${position.coords.longitude}`
       );
-      let mymap = L.map('map').setView(latLong, 13);
+      const mymap = L.map('map').setView(latLong, 13);
 
       L.tileLayer(
         'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic3VicmF0MDA3IiwiYSI6ImNrYjNyMjJxYjBibnIyem55d2NhcTdzM2IifQ.-NnMzrAAlykYciP4RP9zYQ',
@@ -38,11 +38,11 @@ export class PaymentComponent implements OnInit {
         }
       ).addTo(mymap);
 
-      let marker = L.marker(latLong).addTo(mymap);
+      const marker = L.marker(latLong).addTo(mymap);
 
       marker.bindPopup('<b>Hi</b>').openPopup();
 
-      let popup = L.popup()
+      const popup = L.popup()
         .setLatLng(latLong)
         .setContent('I am Subrat')
         .openOn(mymap);
@@ -51,9 +51,9 @@ export class PaymentComponent implements OnInit {
   }
 
   watchPosition() {
-    let desLat = 0;
-    let desLon = 0;
-    let id = navigator.geolocation.watchPosition(
+    const desLat = 0;
+    const desLon = 0;
+    const id = navigator.geolocation.watchPosition(
       (position) => {
         console.log(
           `lat: ${position.coords.latitude}, lon: ${position.coords.longitude}`
